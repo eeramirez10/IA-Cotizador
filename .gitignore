@@ -1,0 +1,58 @@
+# Python archivos compilados
+__pycache__/
+*.py[cod]
+*$py.class
+/env
+.env
+# Archivos de entorno virtual
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+
+# Configuración de IDEs y editores
+.idea/
+.vscode/
+*.swp
+
+# Configuración de Jupyter Notebook
+.ipynb_checkpoints
+
+# Archivos de log y base de datos local
+*.log
+*.sqlite3
+*.db
+
+# Configuración de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Dependencias
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+__pypackages__/
+
+# Archivos de coverage y pruebas
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+.nox/
+
+# Archivos de caché de pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Otros
+*.env
+.env.local
